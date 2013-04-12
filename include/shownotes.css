@@ -1,0 +1,78 @@
+dd a:hover {
+  text-decoration: underline;
+}
+
+.osf_amazon, .osf_amazonde, .osf_amazoncom, .osf_applecom, .osf_esaint, .osf_dlrde, .osf_flattr, .osf_twitter, .osf_wiki, .osf_youtube, .osf_glossary, .osf_shopping, .osf_video {
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  padding-left: 18px;
+}
+
+.osf_amazon, .osf_amazonde, .osf_amazoncom, .osf_shopping {
+  background-image: url('./img/ld/amazon.png');
+}
+
+.osf_flattr {
+  background-image: url('./img/ld/flattr.png');
+}
+
+.osf_twitter {
+  background-image: url('./img/ld/twitter.png');
+}
+
+.osf_wiki, .osf_glossary {
+  background-image: url('./img/ld/wiki.png');
+}
+
+.osf_youtube, .osf_video {
+  background-image: url('./img/ld/youtube.png');
+}
+
+.osf_applecom {
+  background-image: url('./img/ld/apple.png');
+}
+
+.osf_esaint {
+  background-image: url('./img/ld/esa.png');
+}
+
+.osf_dlrde {
+  background-image: url('./img/ld/dlr.png');
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5),only screen and (min-device-pixel-ratio : 1.5) {
+  .osf_amazon, .osf_applecom, .osf_esaint, .osf_dlrde, .osf_flattr, .osf_twitter, .osf_wiki, .osf_youtube, .osf_glossary, .osf_shopping, .osf_video {
+    background-size: 16px 16px;
+  }
+  .osf_amazon, .osf_amazonde, .osf_amazoncom, .osf_shopping {
+    background-image: url('./img/hd/amazon.png');
+  }
+  
+  .osf_flattr {
+    background-image: url('./img/hd/flattr.png');
+  }
+  
+  .osf_twitter {
+    background-image: url('./img/hd/twitter.png');
+  }
+  
+  .osf_wiki, .osf_glossary {
+    background-image: url('./img/hd/wiki.png');
+  }
+  
+  .osf_youtube, .osf_video {
+    background-image: url('./img/hd/youtube.png');
+  }
+  
+  .osf_applecom {
+  	background-image: url('./img/hd/apple.png');
+  }
+  
+  .osf_esaint {
+    background-image: url('./img/hd/esa.png');
+  }
+  
+  .osf_dlrde {
+    background-image: url('./img/hd/dlr.png');
+  }
+}

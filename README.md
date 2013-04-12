@@ -1,4 +1,4 @@
 shownotes.github.io
 ===================
 
-shownot.es gh-pages
+[shownot.es](http://shownot.es/) gh-pages
